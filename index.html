@@ -62,50 +62,107 @@
   <input type="week"> -->
    
    
-   <fieldset style="background-color: darkorchid;">
-    <legend>
-        <header style="background-color: rgb(177, 155, 198);text-align: center;border-style: ridge;"><H1>EVENT BOOKING FORM</H1></header>
+   <fieldset style="background-color: rgb(186, 121, 218);">
+    <legend style="background-color: darkorchid;"><H1>EVENT BOOKING FORM</H1></legend>
   <h2>Event Name :</h2>
-  <br>
-  <input type="text" placeholder="Event Name">
-  <br>
-  <br>
-  <h2>Date of Event</h2>
-  <h2>Venue :</h2>
-  <br>
+  <input ="text" placeholder="Event Name">
+  <div>
+    <table>
+    <tr>
+      <td><h2>Date of Event</h2></td> 
+      <td style="width: 220px;"></td>
+      <td><h2>Venue :</h2></td> 
+   <br>
+   <br>
+    <br>
+    </tr>
+   
+  <tr>
+    <td><input type="date" placeholder="date"></td>
+     <td style="width: 220px;"></td>
+     <td><input type="text" placeholder="venue"></td>
+  </tr>
 <br>
-<input type="date" placeholder="date">
-<input type="text" placeholder="text">
 <br>
-<br>
-<h2>Start Time :</h2>
-<input type="time" placeholder="time">
-<h2>End Time</h2>
-<input type="time"placeholder="time" >
+ </table>
+ </div>
 
-    </legend>
-  </fieldset>
+<br>
+<br>
+<div>
+  <table>
+    <tr>
+      <td><h2>Start Time :</h2></td>
+      <td style="width: 220px;"></td>
+      <td><h2>End Time</h2></td>
+    </tr>
+    <tr>
+      <td><input type="time"></td>
+       <td style="width: 220px;"></td>
+      <td><input type="time" ></td>
+    </tr>
+  </table>
+</div>
+<br>
+<br>
+</fieldset>
+    
+  <fieldset style="background-color: rgb(186, 121, 218);">
   <br>
   <br>
-  <h1 style=" background-color: blueviolet;">Attendee Information</h1>
+  <legend><h1 style=" background-color: blueviolet;">Attendee Information</h1></legend>
     <h2>Full Name :</h2>
     <input type="text" placeholder="Full Name">
     <br>
-    <h2>Contact Number :</h2>
-    <h2>Email Address</h2>
-    <input type="number">
-    <input type="email">
-    <h2>Number of Attendees</h2>
-    <h2>Please provide any additional requests,special accomodations,or other important details about your booking :</h2>
-   <input type="number">
-     <textarea name="" id=""></textarea>
+    <div>
+      <table>
+        <tr>
+          <td> <h2>Contact Number :</h2></td>
+          <td style="width: 220px;"></td>
+          <td> <h2>Email Address</h2></td>
+        </tr>
+        <tr>
+          <td> <input type="number"></td>
+           <td style="width: 220px;"></td>
+           <td><input type="email"></td>
+        </tr>
+        <tr>
+          <td><h2>Number of Attendees</h2></td>
+           <td style="width: 220px;"></td>
+           <td><h2>Please provide any additional requests,special accomodations,or other important details about your booking :</h2></td>
+        </tr>
+        <tr>
+          <td><input type="number"></td>
+          <td style="width: 220px;"></td>
+          <td><textarea name="" id=""></textarea></td>
+        </tr>
+        <br>
+        <br>
+       
+          <td><h1>Total Cost</h1></td>
+          <td style="width: 220px;"></td>
+          <td> <h2>Payment Method :</h2></td>
+        </tr>
+        
+        <tr>
+          <td style="height: 0px;">
+          <input type="number" id="price" name="price" placeholder="0.00">
+        </td>
+          <td style="width: 220px;"></td>
+          <td> <h3 style="width: 50px;">cash</h3><input type="radio">  <h3 style="width: 50px;">credit/debit<input type="radio">   <h3 style="width: 50px;">online</h3> <input type="radio">   </td>
+            </table>
+
+          </div>
+        
+  
+     
      <br>
-     <h1>Payment Details </h1>
-     <h2>Total Cost :</h2>
-     <input type="number">
+     
+    
+     
      <br>
-     <h2>Payment Method :</h2>
-     <input type="radio">  <h3>cash</h3> <input type="radio"> <h3>credit/debit</h3>  <input type="radio">  <h3>online</h3>
+     
+    
     
      
     
