@@ -66,3 +66,41 @@ if(!true){
 }else{
  console.log("false");
 }
+
+let s = 10;
+let t = 20;
+if (s > t){
+  console.log("s is greater than t");
+} else if(s < t) {
+  console.log("s is less than t");
+} else {
+  console.log("s is equal to t");
+}
+let day =2;
+switch(day){
+  case 1: 
+  console.log("MONDAY");
+  break;
+  case 2: 
+  console.log("TUESDAY");
+  break;
+  case 3: 
+  console.log("WEDNESDAY");
+  break;
+  default: 
+  console.log("THURSDAY");
+ 
+}
+for(let i =0; i<10;i++){
+  console.log(i);
+}
+let j=0;
+while(j <= 10){
+  console.log(j);
+  j++;
+}
+let k=0;
+do{
+  console.log(k);
+  k++;
+}while(k <= 10);
